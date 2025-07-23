@@ -1,0 +1,2 @@
+local Spawner = loadstring(game:HttpGet("https://codeberg.org/johntate2111111/GROW.A.GARDEN.VISUAL.RANDOMIZER/raw/branch/main/GAG"))()
+Spawner.Load()
