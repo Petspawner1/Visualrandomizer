@@ -1,1 +1,22 @@
-loadstring(game:HttpGet("https://pastefy.app/RMC6tbXI/raw"))()
+# UPDATED VISUAL PET | SEED | EGG SPAWNER
+- Added seed placer (now you can place the seeds you spawned in your garden)
+- Pet and Seed spawner is back!
+- Made a library for developers to make and use their own ui instead of ours!
+# Usage of methods (for developers)
+```lua
+local Spawner = loadstring(game:HttpGet("https://codeberg.org/GrowAFilipino/GrowAGarden/raw/branch/main/Spawner.lua"))()
+Spawner.GetPets() -- Returns a table of supported pets
+Spawner.GetSeeds() -- Returns a table of supported seeds 
+Spawner.GetEggs() -- Returns a table of supported eggs
+Spawner.SpawnPet("Raccoon", 1, 2) -- Spawns a Raccoon with 1 KG and 2 Age
+Spawner.SpawnSeed("Candy Blossom") -- Spawns Candy Blossom
+Spawner.SpawnEgg("Night Egg") -- Spawns Night Egg
+Spawner.Spin("Sunflower") -- Spins Sunflower
+Spawner.Load() -- Loads the Default UI
+```
+# Default Loader
+```lua
+local Spawner = loadstring(game:HttpGet("https://codeberg.org/GrowAFilipino/GrowAGarden/raw/branch/main/Spawner.lua"))()
+Spawner.Load()
+```
+<@&1125161010534293597>
